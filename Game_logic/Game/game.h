@@ -3,5 +3,6 @@
 
 void gameLoop();
 bool checkDraw(const char board[3][3]);
+bool checkWin(const char board[3][3], char player);
 
 #endif
